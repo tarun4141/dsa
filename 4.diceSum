@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+#include <iostream>
+using namespace std;
+
+int printS(int x){
+    int sum=0;
+    for(int i=1;i<=6;i++){
+        for(int j=1;j<=6;j++){
+            if(i+j==x){
+                sum++;
+            }
+        }
+    }
+    cout<<sum<<endl;
+    return 0;
+}
+
+
+int main() {
+    int x;cin>>x;
+    printS(x);
+    return 0;
+}
