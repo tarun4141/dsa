@@ -1,0 +1,17 @@
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int num=26;
+    int n=3;
+    
+    int x=(num/n)*n;
+    int y=((num/n)+1)*n;
+    int  a=num-x;
+    int b=y-num;
+    if(a<b) cout<<x;
+    else cout<<y;
+    
+    return 0;
+}
